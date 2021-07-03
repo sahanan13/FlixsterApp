@@ -24,11 +24,7 @@ import java.util.List;
 import okhttp3.Headers;
 
 public class MainActivity extends AppCompatActivity {
-
-    //Video's api key:
-    //https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed
-    //my api key
-    //public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=0a18b2fca4734076163c8ebe0bc034d8";
+    
     public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
     public static final String TAG = "MainActivity";
 
